@@ -1,0 +1,1 @@
+Practice tasks from HTML course.
