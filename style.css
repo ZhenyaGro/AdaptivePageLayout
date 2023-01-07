@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  width: 1140px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -133,7 +133,51 @@ body {
   opacity: 0.6;
 }
 
-.text-footer {
+.text__project {
+  width: 75%;
+  margin: 32px auto 64px;
+  text-align: center;
+  color: #222222;
+  opacity: 1;
+}
+
+.project__item {
+  position: relative;
+  flex-grow: 1;
+}
+
+.project__item_margin {
+  margin-right: 32px;
+}
+
+.project__img {
+  width: 100%;
+}
+
+.project__text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+
+.project__parent_text {
+  top: 32px;
+  left: 32px;
+  font-size: 28px;
+}
+
+.project__parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.text__footer {
   width: 495px;
 }
 
