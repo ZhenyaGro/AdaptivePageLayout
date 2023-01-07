@@ -1,31 +1,10 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
   font-family: sans-serif;
-}
-
-.red {
-  border: 4px solid red;
-}
-
-.purple {
-  border: 4px solid purple;
-}
-
-.green {
-  border: 4px solid green;
-}
-
-.blue {
-  border: 4px solid blue;
-}
-
-.pink {
-  border: 4px solid pink;
-}
-
-.bisque {
-  border: 4px solid bisque;
 }
 
 .container {
@@ -33,33 +12,67 @@
   margin: 0 auto;
 }
 
+.top {
+  height: 768px;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
+  padding-top: 42px;
+}
+
+.top__box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.top__info {
+  padding-top: 115px;
+  background-image: url(./Pics/top_background.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  flex-grow: 1;
 }
 
 .top__heading {
   width: 510px;
+  font-size: 64px;
+  font-weight: 300;
+  color: #1F3F68;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+}
+
+.top__text {
+  width: 425px;
+}
+
+.top__button {
+  font-size: 16px;
+  background-color: #5A98D0;
+  color: #FFFFFF;
+  letter-spacing: 0.04em;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  line-height: 26px;
+  text-align: center;
+  padding: 15px 50px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 71px;
 }
 
 .text {
   font-size: 16px;
   line-height: 26px;
   color: #1F3F68;
-  width: 425px;
-}
-
-.carousel {
-  display: flex;
-  justify-content: space-between;
-}
-
-.card {
-  width: 359px;
-}
-
-.heading {
-  width: 340px;
+  letter-spacing: 0.05em;
+  opacity: 0.6;
 }
 
 .text-footer {
@@ -71,43 +84,9 @@
   justify-content: space-between;
 }
 
-.main-content {
-  display: flex;
-  justify-content: space-around;
-}
-
 .form {
   display: flex;
   flex-direction: column;
-}
-
-.top__info {
-  font-size: 64px;
-  color: #1F3F68;
-}
-
-.headContact {
-  font-weight: 500;
-  font-size: 44px;
-  text-align: center;
-}
-
-.content__heading {
-  font-size: 36px;
-  text-align: center;
-}
-
-.headFour {
-  font-size: 20px;
-  line-height: 30px;
-  color: #1F3F68;
-}
-
-.inpArea {
-  border: 1px solid #356EAD;
-  box-sizing: border-box;
-  border-radius: 10px;
-  opacity: 0.4;
 }
 
 .submitButton {
