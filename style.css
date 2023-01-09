@@ -268,6 +268,33 @@ hr {
 .form {
   display: flex;
   flex-direction: column;
+  background: #FFFFFF;
+  box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.heading-contacts {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #000;
+  /* color: #fff; */
+}
+
+.heading-contacts-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #000;
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media(max-width: 1024px) {
