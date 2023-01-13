@@ -274,12 +274,13 @@ hr {
 }
 
 .heading-contacts {
+  padding-top: 51px;
+  padding-bottom: 16px;
   font-weight: 500;
   font-size: 44px;
   line-height: 74px;
   letter-spacing: 0.04em;
-  color: #000;
-  /* color: #fff; */
+  color: #fff;
 }
 
 .heading-contacts-text {
@@ -288,8 +289,18 @@ hr {
   line-height: 30px;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #000;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.header-background {
+  background-image: url(./Img/head-contacts.png);
+  background-repeat: no-repeat;
+  height: 471px;
+  margin-top: 55px;
+  width: 100%;
+  /* margin-bottom: 57px; */
 }
 
 .main-content {
@@ -301,6 +312,7 @@ hr {
   .container {
     padding-left: 32px;
     padding-right: 32px;
+    width: auto;
   }
 
   .top {
