@@ -13,7 +13,7 @@ body {
 }
 
 .top {
-  min-height: 768px;
+  height: 768px;
   background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
@@ -312,7 +312,6 @@ hr {
   .container {
     padding-left: 32px;
     padding-right: 32px;
-    width: auto;
   }
 
   .top {
@@ -355,6 +354,10 @@ hr {
     margin-bottom: 24px;
   }
 
+  .header-background {
+    /* width: auto; */
+  }
+
   /* .container-footer {
     padding-left: 124px;
     padding-right: 124px;
@@ -372,6 +375,7 @@ hr {
 
   .top {
     background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    height: auto;
     min-height: 376px;
     padding-bottom: 41px;
     box-sizing: border-box;
