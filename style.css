@@ -116,7 +116,8 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.04em;
-  padding: 21px 0 21px 21px;
+  padding: 21px;
+  margin-top: 8px;
   margin-bottom: 32px;
   box-sizing: border-box;
 }
@@ -128,6 +129,8 @@ body {
 
 .input-textarea {
   min-height: 144px;
+  resize: none;
+  font-family: sans-serif;
 }
 
 .card {
@@ -318,9 +321,10 @@ hr {
   line-height: 26px;
   letter-spacing: 0.04em;
   color: #FFFFFF;
-  padding: 23px;
+  padding: 23px 0;
   text-transform: uppercase;
   margin-top: 32px;
+  border: 0;
 }
 
 .heading-contacts {
