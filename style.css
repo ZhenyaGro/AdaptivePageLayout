@@ -94,8 +94,14 @@ body {
   font-weight: 500;
   color: #1F3F68;
   letter-spacing: 0.04em;
-  margin-bottom: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   text-transform: uppercase;
+}
+
+.form-heading {
+  margin-top: 0;
+  margin-bottom: 48px;
 }
 
 .input-label {
@@ -168,6 +174,12 @@ body {
   color: #1F3F68;
   letter-spacing: 0.05em;
   opacity: 0.6;
+  text-decoration: none;
+}
+
+.text-contacts {
+  letter-spacing: 0.04em;
+  padding-bottom: 16px;
 }
 
 .text__project {
@@ -359,6 +371,25 @@ hr {
 .main-content {
   display: flex;
   justify-content: space-around;
+}
+
+.contacts-info {
+  padding-top: 78px;
+  max-width: 300px;
+}
+
+.img-woman-apps {
+  max-width: 300px;
+  margin-bottom: 32px;
+}
+
+.phone-marker {
+  /* list-style-image: url(./Img/phone.svg); */
+  list-style: none;
+}
+
+.phone-marker::before {
+  content: url(./Img/phone.svg);
 }
 
 @media (min-width: 1366px) {
