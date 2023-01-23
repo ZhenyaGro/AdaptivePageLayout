@@ -384,15 +384,37 @@ hr {
   margin-bottom: 32px;
 }
 
-.phone-marker {
+.phone-marker,
+.globe-marker,
+.letter-marker {
   list-style: none;
+}
+
+.phone-marker::before,
+.globe-marker::before,
+.letter-marker::before {
+  padding-right: 19px;
+  position: relative;
 }
 
 .phone-marker::before {
   content: url(./Img/phone.svg);
-  padding-right: 19px;
-  position: relative;
   top: 4px;
+}
+
+.globe-marker::before {
+  content: url(./Img/globe.svg);
+  top: 5px;
+}
+
+.letter-marker::before {
+  content: url(./Img/letter.svg);
+  top: 3px;
+}
+
+.site-link {
+  text-decoration: none;
+  color: #1F3F68;
 }
 
 @media (min-width: 1366px) {
