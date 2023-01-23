@@ -417,6 +417,10 @@ hr {
   color: #1F3F68;
 }
 
+iframe {
+  margin: 96px auto 0;
+}
+
 @media (min-width: 1366px) {
   .header-background {
     background-size: 100%;
