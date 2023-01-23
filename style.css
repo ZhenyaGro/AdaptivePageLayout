@@ -180,6 +180,7 @@ body {
 .text-contacts {
   letter-spacing: 0.04em;
   padding-bottom: 16px;
+  font-weight: 300;
 }
 
 .text__project {
@@ -384,12 +385,14 @@ hr {
 }
 
 .phone-marker {
-  /* list-style-image: url(./Img/phone.svg); */
   list-style: none;
 }
 
 .phone-marker::before {
   content: url(./Img/phone.svg);
+  padding-right: 19px;
+  position: relative;
+  top: 4px;
 }
 
 @media (min-width: 1366px) {
