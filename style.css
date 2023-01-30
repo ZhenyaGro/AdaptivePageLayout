@@ -324,6 +324,7 @@ hr {
   box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
   border-radius: 10px;
   padding: 56px;
+  text-align: initial;
 }
 
 .button-submit {
@@ -370,6 +371,10 @@ hr {
   padding-bottom: 49px;
 }
 
+.container-with-map {
+  text-align: center;
+}
+
 .main-content {
   /* display: flex;
   justify-content: space-around; */
@@ -380,6 +385,8 @@ hr {
   display: inline-block;
   padding-top: 78px;
   max-width: 300px;
+  margin-right: 101px;
+  text-align: initial;
 }
 
 .img-woman-apps {
