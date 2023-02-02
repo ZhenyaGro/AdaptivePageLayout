@@ -487,6 +487,52 @@ iframe {
   .heading-contacts-text {
     max-width: 520px;
   }
+
+  .header-background {
+    margin-bottom: 44px;
+    padding-bottom: 20px;
+  }
+
+  .contacts-info {
+    margin-right: auto;
+    padding-top: 0;
+    margin-bottom: 48px;
+  }
+
+  .map {
+    padding: 0;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+  }
+
+  .after-map {
+    margin-top: 64px;
+  }
+
+  .container-footer {
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+
+  .text__footer {
+    max-width: 336px;
+  }
+
+  .footer__list {
+    margin-right: 0;
+  }
+
+  .footer__list:first-child::before {
+    margin-right: 36px;
+  }
+
+  .footer__list:nth-child(2)::before {
+    margin-right: 36px;
+  }
+
+  .footer__list:nth-child(3)::before {
+    margin-right: 36px;
+  }
 }
 
 @media (max-width: 768px) {
