@@ -484,14 +484,15 @@ iframe {
     margin-bottom: 24px;
   }
 
-  .header-background {
-    /* width: auto; */
+  .heading-contacts-text {
+    max-width: 520px;
   }
+}
 
-  /* .container-footer {
-    padding-left: 124px;
-    padding-right: 124px;
-  } */
+@media (max-width: 768px) {
+  .header-background {
+    background-image: url(./Img/head-contacts-tablet.png);
+  }
 }
 
 @media (max-width: 667px) {
