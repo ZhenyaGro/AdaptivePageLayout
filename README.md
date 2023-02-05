@@ -4,7 +4,7 @@
 
 Адаптивная верстка под разные размеры экранов.
 
-### **Статус:** в процессе...
+### **Статус:** завершено.
 
 ***
 
@@ -15,4 +15,4 @@
 
 Adaptive layout for different screen sizes.
 
-### **Status:** in progress...
+### **Status:** completed.
