@@ -430,6 +430,18 @@ iframe {
   margin: 96px auto 0;
 }
 
+.link-animate {
+  transition: 0.3s;
+}
+
+.link-animate:hover {
+  transform: scale(1.2);
+}
+
+.link-animate:active {
+  transform: scale(1);
+}
+
 @media (min-width: 1366px) {
   .header-background {
     background-size: 100%;
