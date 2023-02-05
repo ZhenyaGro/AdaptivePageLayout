@@ -434,12 +434,27 @@ iframe {
   transition: 0.3s;
 }
 
-.link-animate:hover {
+.link-animate:hover,
+.link-animate:focus {
   transform: scale(1.2);
 }
 
 .link-animate:active {
   transform: scale(1);
+}
+
+.button-animate {
+  transition: 0.3s;
+}
+
+.button-animate:hover,
+.button-animate:focus {
+  background-color: #87C7FF;
+  color: #000000;
+}
+
+.button-animate:active {
+  background-color: #538EC2;
 }
 
 @media (min-width: 1366px) {
