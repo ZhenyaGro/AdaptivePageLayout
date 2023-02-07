@@ -6,6 +6,8 @@
 
 ### **Статус:** завершено.
 
+### Результат доступен по [ссылке](https://zhenyagro.github.io/AutomationTool_Layout/).
+
 ***
 
 ### En
@@ -16,3 +18,5 @@
 Adaptive layout for different screen sizes.
 
 ### **Status:** completed.
+
+### The result is available by the [link](https://zhenyagro.github.io/AutomationTool_Layout/).
